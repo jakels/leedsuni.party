@@ -1,0 +1,77 @@
+<meta charset="utf-8">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>leedsuni.party - Add Party</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.png"/>
+        <link rel="stylesheet" href="/assets/styles/style.css">
+    </head>
+
+    <body>
+        <div class="center">
+            
+            <!-- Header -->
+            <script src="/assets/scripts/header.js"></script>
+
+            <!--Add Party Manager-->
+            <script src="/assets/scripts/apManager.js"></script>
+
+            <br>
+            <div style="background-color:black; padding: 1%;">
+                <h2 style="line-height:80%; color:white;">Add Event</h2> 
+            </div>
+            <hr>
+
+            <form>
+              <label for="location"><p class="inline_element">Location (Accommodation Name):</p></label>
+              <input id="location" name="location" class="maxWidth">
+
+              <br>
+              <br>
+
+              <label for="description"><p class="inline_element">Description:</p></label>
+              <textarea id="description" name="description" class="maxWidth"></textarea>
+
+              <br>
+              <br>
+
+              <label for="eventType"><p class="inline_element">Event Type:</p></label>
+              <select id="eventType" name="eventType" class="maxWidth">
+                <option value="Pres">Pres</option>
+                <option value="Standalone Event">Standalone Event</option>
+              </select>
+              
+              <br>
+              <br>
+
+              <label for="date"><p class="inline_element">Date:</p></label>
+              <input type="date" id="date" name="date" class="maxWidth">
+              
+              <br>
+              <br>
+
+              <label for="time"><p class="inline_element">Time:</p></label>
+              <input type="time" id="time" name="time" class="maxWidth">
+              
+              <br>
+              <br>
+
+              <label for="email"><p class="inline_element">University Email:</p></label>
+              <input id="email" name="email" class="maxWidth">
+
+              <br>
+              <br>
+
+              <hr>
+            </form>
+            <button class="button maxWidth" onclick="SubmitPartyDetails();">Add Event</button>
+
+            <br>
+            <br>
+            <!--Footer-->
+            <script src="/assets/scripts/footer.js"></script>
+            <p>Your University email will be logged along with your input to allow us to prevent illegal, explicit or spam content.</p>
+
+        </div>
+    </body>
+</html>
