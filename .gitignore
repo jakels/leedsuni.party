@@ -26,3 +26,6 @@ vite.config.ts.timestamp-*
 pocketbase/pocketbase
 pocketbase/pocketbase.exe
 pocketbase/pb_data/
+
+# JetBrains
+.idea/*
