@@ -13,3 +13,4 @@
         <img src="{anonpfp}" alt="" class="max-w-9 my-2">
     </div>
 </nav>
+<p class="bg-black text-white p-4 text-sm">Safely & quickly resell tickets for events in Leeds. This site is independent and not affiliated with the University of Leeds.</p>
